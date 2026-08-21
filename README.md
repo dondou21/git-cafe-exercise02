@@ -1,11 +1,13 @@
 # Git Café Exercise
 
-# Round 3
+# Round 5
 
-1. Start a brand-new repository, record a first commit, then create a `dev` branch and a `qa` branch from it. Return to `dev` and remove `qa`.
+1. Create a branch `feat/team`, add a `team.html` page, record the change, publish the branch, and open a merge request into `main`. After the review is completed, merge the branch and remove the feature branch.
 
-2. Create `feat/events`, add an `events.html` page, record it, publish, and open a merge request.
+2. Create a branch `feat/services`, add a `services.html` page, and make **two separate commits**: one for the initial page and one for an additional services section. Publish the branch and open a merge request into `main`.
 
-3. Switch to `main` and make a new commit there (e.g. update `index.html`), so `main` is now ahead of where `feat/events` branched from. Go back to `feat/events` and replay your work so it sits **on top of** the latest `main` (keeping history linear rather than creating a merge commit). Then add a change to `events.html`, record it, and publish the updated branch.
+3. Create a branch `feat/location` from `main`, add a `location.html` page, and record the change. Before publishing, use Git to inspect both the working-tree changes and the staged changes. Then publish the branch and open a merge request into `main`.
 
-4. On `feat/footer-links`, make **two** separate commits. Then, on a new branch `feat/footer-squash` created from main, combine everything from `feat/footer-links` into a **single** commit with the message squashed footer links. Publish and open a merge request.
+4. Create a branch `feat/faq`, add an `faq.html` page, and record the change. Create a second branch `feat/faq-update` from `main`, then bring the `faq.html` commit from `feat/faq` onto `feat/faq-update` using only the specific commit. Add an additional FAQ entry, record the new change, publish the branch, and open a merge request.
+
+5. Create a branch `feat/booking`, add a `booking.html` page, and record the change. Publish the branch, open a merge request into `main`, then update the same page with additional booking information in a second commit and push the updated branch before the merge request is completed.
