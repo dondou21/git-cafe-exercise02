@@ -11,3 +11,4 @@
 4. Create a branch `feat/faq`, add an `faq.html` page, and record the change. Create a second branch `feat/faq-update` from `main`, then bring the `faq.html` commit from `feat/faq` onto `feat/faq-update` using only the specific commit. Add an additional FAQ entry, record the new change, publish the branch, and open a merge request.
 
 5. Create a branch `feat/booking`, add a `booking.html` page, and record the change. Publish the branch, open a merge request into `main`, then update the same page with additional booking information in a second commit and push the updated branch before the merge request is completed.
+
