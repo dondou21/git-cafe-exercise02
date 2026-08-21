@@ -1,11 +1,14 @@
 # Git Café Exercise
 
-# Round 3
+# Round 5
 
-Create a branch feat/about, add an about.html page, record the change, publish the branch, and open a merge request into main. Have the change reviewed and merged.
+1. Create a branch `feat/team`, add a `team.html` page, record the change, publish the branch, and open a merge request into `main`. After the review is completed, merge the branch and remove the feature branch.
 
-Create a branch feat/pricing, add a pricing.html page, record the change, and publish the branch. Identify the commit that added pricing.html, then create a separate branch feat/offers from main and bring only that commit onto feat/offers without merging the entire feat/pricing branch.
+2. Create a branch `feat/services`, add a `services.html` page, and make **two separate commits**: one for the initial page and one for an additional services section. Publish the branch and open a merge request into `main`.
 
-On feat/offers, add additional pricing content to pricing.html, record the change as a new commit, publish the branch, and open a merge request into main.
+3. Create a branch `feat/location` from `main`, add a `location.html` page, and record the change. Before publishing, use Git to inspect both the working-tree changes and the staged changes. Then publish the branch and open a merge request into `main`.
 
-Create a branch feat/contact, add a contact.html page, record and publish the change, then open a merge request into main. Before merging, inspect the changes with Git and request a review
+4. Create a branch `feat/faq`, add an `faq.html` page, and record the change. Create a second branch `feat/faq-update` from `main`, then bring the `faq.html` commit from `feat/faq` onto `feat/faq-update` using only the specific commit. Add an additional FAQ entry, record the new change, publish the branch, and open a merge request.
+
+5. Create a branch `feat/booking`, add a `booking.html` page, and record the change. Publish the branch, open a merge request into `main`, then update the same page with additional booking information in a second commit and push the updated branch before the merge request is completed.
+
