@@ -2,10 +2,10 @@
 
 # Round 3
 
-1. Start a brand-new repository, record a first commit, then create a `dev` branch and a `qa` branch from it. Return to `dev` and remove `qa`.
+Create a branch feat/about, add an about.html page, record the change, publish the branch, and open a merge request into main. Have the change reviewed and merged.
 
-2. Create `feat/events`, add an `events.html` page, record it, publish, and open a merge request.
+Create a branch feat/pricing, add a pricing.html page, record the change, and publish the branch. Identify the commit that added pricing.html, then create a separate branch feat/offers from main and bring only that commit onto feat/offers without merging the entire feat/pricing branch.
 
-3. Switch to `main` and make a new commit there (e.g. update `index.html`), so `main` is now ahead of where `feat/events` branched from. Go back to `feat/events` and replay your work so it sits **on top of** the latest `main` (keeping history linear rather than creating a merge commit). Then add a change to `events.html`, record it, and publish the updated branch.
+On feat/offers, add additional pricing content to pricing.html, record the change as a new commit, publish the branch, and open a merge request into main.
 
-4. On `feat/footer-links`, make **two** separate commits. Then, on a new branch `feat/footer-squash` created from main, combine everything from `feat/footer-links` into a **single** commit with the message squashed footer links. Publish and open a merge request.
+Create a branch feat/contact, add a contact.html page, record and publish the change, then open a merge request into main. Before merging, inspect the changes with Git and request a review
