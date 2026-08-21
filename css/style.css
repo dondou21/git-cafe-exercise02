@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #2f2925; background: #fffaf4; font-family: Arial, sans-serif; line-height: 1.5; }
+header, main { width: min(90%, 900px); margin: 0 auto; }
+header { padding: 1.5rem 0; }
+nav a { margin-right: 1rem; color: #704832; }
+main { padding: 1rem 0 3rem; }
